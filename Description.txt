@@ -15,6 +15,13 @@ data = {
     'Transaction 5': ['bread', 'butter', 'jam', None],
 }
 
+4. FP growth algorithm
+dataset = {
+    frozenset(['milk', 'bread']): 3,
+    frozenset(['bread', 'butter', 'jam']): 2,
+    frozenset(['milk', 'bread', 'butter', 'jam']): 2,
+    frozenset(['milk', 'butter', 'jam']): 1,
+}
 
 5.  Naïve Bayes classifier algorithm
   Code has 2 examples:
