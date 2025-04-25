@@ -40,3 +40,12 @@ dataset = {
     'Annual Income': [125, 100, 70, 120, 95, 60, 220, 85, 75, 90],
     'Defaulted Borrower': ['No', 'No', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes']
     }
+
+6. Decision tree classifier
+data = {
+    'age': [22, 35, 26, 27, 32],
+    'income': ['high', 'medium', 'low', 'medium', 'high'],
+    'student': ['no', 'yes', 'yes', 'no', 'yes'],
+    'credit_rating': ['fair', 'excellent', 'fair', 'excellent', 'fair'],
+    'buys_computer': ['no', 'yes', 'yes', 'no', 'yes']
+}
