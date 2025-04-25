@@ -61,3 +61,8 @@ plt.show()
 
 7.2 K-means clustering algorithm
 Iris dataset: from sklearn.datasets import load_iris
+
+8. DBSCAN algorithm
+# Generate sample data
+X, y = make_moons(n_samples=300, noise=0.1)
+X = StandardScaler().fit_transform(X)
