@@ -6,6 +6,15 @@
   e. Dice
 
 
+3. Apriori algorithm
+data = {
+    'Transaction 1': ['milk', 'bread', 'butter', None],
+    'Transaction 2': ['bread', 'butter', None, None],
+    'Transaction 3': ['milk', 'bread', None, None],
+    'Transaction 4': ['milk', 'butter', None, None],
+    'Transaction 5': ['bread', 'butter', 'jam', None],
+}
+
 
 5.  Naïve Bayes classifier algorithm
   Code has 2 examples:
