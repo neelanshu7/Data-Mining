@@ -66,3 +66,11 @@ Iris dataset: from sklearn.datasets import load_iris
 # Generate sample data
 X, y = make_moons(n_samples=300, noise=0.1)
 X = StandardScaler().fit_transform(X)
+
+9. Outlier detection
+# Creating smaple dataset
+np.random.seed(42)
+X_inliers=0.3*np.random.randn(100,2)
+Y_inliers=np.r_[X_inliers+2,X_inliers-2]
+
+10. 
